@@ -5,7 +5,7 @@
 int man()
 {
     unsigned n;
-    printf("\Создание матрицы размером n*n. Введите значение n: ");
+    printf("\tСоздание матрицы размером n*n. Введите значение n: ");
     scanf("%u", &n);
 
     int *arr = (int*)malloc(n*n * sizeof(int));
